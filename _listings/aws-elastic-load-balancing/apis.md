@@ -39,15 +39,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-elastic-load-balancing/action-registertargets-get.md
-- name: AWS Elastic Load Balancing API Deregister Targets
-  description: Deregisters the specified targets from the specified target group.
+- name: AWS Elastic Load Balancing API Register Targets
+  description: Registers the specified targets with the specified target group.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_ElasticLoadBalancing.png
   humanURL: https://aws.amazon.com/elasticloadbalancing/
   baseURL: http:://{host}//
   tags: Targets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-elastic-load-balancing/action-deregistertargets-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-elastic-load-balancing/action-registertargets-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/elbv2/index.html
