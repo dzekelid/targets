@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Create Assessment Target
   version: 1.0.0
+  description: |-
+    Creates a new assessment target using the ARN of the resource group that is generated
+             by.
 schemes:
 - http
 produces:
