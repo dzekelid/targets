@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Inspector API
+  title: AWS Inspector API Describe Assessment Targets
   version: 1.0.0
+  description: |-
+    Describes the assessment targets that are specified by the ARNs of the assessment
+             targets.
 schemes:
 - http
 produces:
