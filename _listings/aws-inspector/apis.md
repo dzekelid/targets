@@ -31,17 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-updateassessmenttarget-get.md
-- name: AWS Inspector API Describe Assessment Targets
-  description: |-
-    Describes the assessment targets that are specified by the ARNs of the assessment
-             targets.
+- name: AWS Inspector API List Assessment Targets
+  description: Lists the ARNs of the assessment targets within this AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: http:://{host}//
   tags: Targets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-describeassessmenttargets-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-listassessmenttargets-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
