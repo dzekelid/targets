@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Deregister Targets
   version: 1.0.0
+  description: Deregisters the specified targets from the specified target group.
 schemes:
 - http
 produces:
