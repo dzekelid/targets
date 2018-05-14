@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-updateassessmenttarget-get.md
-- name: AWS Inspector API Delete Assessment Target
+- name: AWS Inspector API Describe Assessment Targets
   description: |-
-    Deletes the assessment target that is specified by the ARN of the assessment
-             target.
+    Describes the assessment targets that are specified by the ARNs of the assessment
+             targets.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AmazonInspector.png
   humanURL: https://aws.amazon.com/inspector/
   baseURL: http:://{host}//
   tags: Targets
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-deleteassessmenttarget-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/targets/master/_listings/aws-inspector/action-describeassessmenttargets-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/inspector/latest/APIReference/
