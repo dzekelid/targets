@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Load Balancing API
+  title: AWS Elastic Load Balancing API Register Targets
   version: 1.0.0
+  description: Registers the specified targets with the specified target group.
 schemes:
 - http
 produces:
